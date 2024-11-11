@@ -173,35 +173,6 @@
 </div>
     </div>
 </section>
-<div class="container mt-5" style="padding-bottom: 20px;">
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-        </li>
-    </ul>
-    
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <h4>Home Tab Content</h4>
-            <p>This is the home section. Here you can add content that introduces your website or application.</p>
-        </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <h4>Profile Tab Content</h4>
-            <p>This section provides details about the user or service profile.</p>
-        </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <h4>Contact Tab Content</h4>
-            <p>In this section, you can add contact information or a contact form for users to reach out.</p>
-        </div>
-    </div>
-</div>
 
 <?= $this->include('layout/footer') ?>
 
